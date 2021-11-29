@@ -82,18 +82,19 @@
         android:id="@+id/imageView15"
         android:layout_width="190dp"
         android:layout_height="100dp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/ww5"
-        android:layout_marginStart="10dp"/>
+        app:srcCompat="@drawable/ww5" />
 
     <ImageView
         android:layout_width="190dp"
         android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView25"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/ww6"
-        android:layout_marginStart="10dp"/>
+        app:srcCompat="@drawable/ww6" />
 
     <TextView
         android:id="@+id/textView6"
@@ -135,6 +136,7 @@
 
 
     <ImageView
+        android:id="@+id/imageView25"
         android:layout_width="80dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toEndOf="@+id/imageView14"
@@ -146,5 +148,7 @@
         android:layout_width="wrap_content"
         android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/e2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
