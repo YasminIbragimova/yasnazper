@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Yasnazper">
         <activity
+            android:name=".MainActivityaccaunt"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityrepetitor2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityrepetitor1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivitylogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivitygrammar"
+            android:exported="true" />
+        <activity
+            android:name=".gffhjhj"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
