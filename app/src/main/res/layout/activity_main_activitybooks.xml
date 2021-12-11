@@ -1,13 +1,14 @@
-version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivitybooks">
 
 
     <ImageView
+        android:contentDescription="@string/french"
         android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +21,7 @@ version="1.0" encoding="utf-8"?>
 
 
     <ImageView
+        android:contentDescription="@string/middle"
         android:id="@+id/image2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,6 +34,7 @@ version="1.0" encoding="utf-8"?>
         app:srcCompat="@drawable/component_18" />
 
     <ImageView
+        android:contentDescription="@string/it"
         android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,6 +47,7 @@ version="1.0" encoding="utf-8"?>
 
 
     <ImageView
+        android:contentDescription="@string/poisk"
         android:id="@+id/image1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -91,12 +95,14 @@ version="1.0" encoding="utf-8"?>
 
 
                     <ImageView
+                        android:contentDescription="@string/readbook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/image_16" />
 
 
                     <ImageView
+                        android:contentDescription="@string/readbook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -110,6 +116,7 @@ version="1.0" encoding="utf-8"?>
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:contentDescription="@string/readbook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
@@ -117,6 +124,7 @@ version="1.0" encoding="utf-8"?>
 
 
                     <ImageView
+                        android:contentDescription="@string/readbook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -130,12 +138,14 @@ version="1.0" encoding="utf-8"?>
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:contentDescription="@string/readbook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/image_18" />
 
 
                     <ImageView
+                        android:contentDescription="@string/readbook"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -148,11 +158,12 @@ version="1.0" encoding="utf-8"?>
         </LinearLayout>
 
 
-    </LinearLayout>
+    </ScrollView>
 
 
 
         <ImageView
+            android:contentDescription="@string/decor"
             android:layout_width="wrap_content"
             android:layout_height="65dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -162,6 +173,7 @@ version="1.0" encoding="utf-8"?>
             app:srcCompat="@drawable/e11" />
 
         <ImageView
+            android:contentDescription="@string/decor"
             android:id="@+id/imageView26"
             android:layout_width="wrap_content"
             android:layout_height="66dp"
@@ -171,6 +183,7 @@ version="1.0" encoding="utf-8"?>
             app:srcCompat="@drawable/palka_gol" />
 
         <ImageView
+            android:contentDescription="@string/words"
             android:id="@+id/imageView27"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -181,6 +194,7 @@ version="1.0" encoding="utf-8"?>
             app:srcCompat="@drawable/qw1" />
 
         <ImageView
+            android:contentDescription="@string/book"
             android:id="@+id/imageView28"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -191,6 +205,7 @@ version="1.0" encoding="utf-8"?>
             app:srcCompat="@drawable/qw2" />
 
         <ImageView
+            android:contentDescription="@string/grammar"
             android:id="@+id/imageView29"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -201,6 +216,7 @@ version="1.0" encoding="utf-8"?>
             app:srcCompat="@drawable/qw3" />
 
         <ImageView
+            android:contentDescription="@string/listening"
             android:id="@+id/imageView31"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -211,6 +227,7 @@ version="1.0" encoding="utf-8"?>
             app:srcCompat="@drawable/qw4" />
 
         <ImageView
+            android:contentDescription="@string/profile"
             android:id="@+id/ava"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -221,7 +238,7 @@ version="1.0" encoding="utf-8"?>
             android:layout_marginStart="20dp"/>
 
 
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
 

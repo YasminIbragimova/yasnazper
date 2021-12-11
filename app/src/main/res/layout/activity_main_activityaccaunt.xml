@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:contentDescription="@string/french"
         android:id="@+id/imageView5"
         android:layout_width="145dp"
         android:layout_height="wrap_content"
@@ -16,6 +17,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/middle"
         android:id="@+id/imageView6"
         android:layout_width="65dp"
         android:layout_height="85dp"
@@ -27,6 +29,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/it"
         android:id="@+id/imageView10"
         android:layout_width="145dp"
         android:layout_height="wrap_content"
@@ -40,26 +43,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="Kate_007"
+        android:text="@string/Kate_007"
         android:textColor="@color/goluboi"
-        android:textSize="36dp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView8"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Симакина Катя"
+        android:text="@string/Катя"
         android:textColor="@color/goluboi"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 
     <ImageView
+        android:contentDescription="@string/avatarka"
         android:id="@+id/imageView11"
         android:layout_width="110dp"
         android:layout_height="110dp"
@@ -71,6 +76,7 @@
 
 
     <ImageView
+        app:layoutDescription="@string/decor"
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -81,19 +87,21 @@
         app:srcCompat="@drawable/q2" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:text="мои репетиторы"
+        android:text="@string/репетиторы"
         android:textColor="@color/goluboi"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
 
     <ImageView
+        android:contentDescription="@string/avatarka"
         android:id="@+id/imageView17"
         android:layout_width="90dp"
         android:layout_height="90dp"
@@ -104,6 +112,7 @@
         app:srcCompat="@drawable/q3" />
 
     <ImageView
+        android:contentDescription="@string/avatarka"
         android:id="@+id/imageView18"
         android:layout_width="90dp"
         android:layout_height="90dp"
@@ -114,6 +123,7 @@
         app:srcCompat="@drawable/q4" />
 
     <ImageView
+        android:contentDescription="@string/avatarka"
         android:id="@+id/imageView19"
         android:layout_width="90dp"
         android:layout_height="90dp"
@@ -127,33 +137,36 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Рикардо Торио"
+        android:text="@string/рикардо"
         android:textColor="@color/goluboi"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Анджела Вегас"
+        android:text="@string/анджела"
         android:textColor="@color/goluboi"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Добавить"
+        android:text="@string/добавить"
         android:textColor="@color/goluboi"
         app:layout_constraintEnd_toEndOf="@+id/imageView19"
         app:layout_constraintStart_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
     <ImageView
+        android:contentDescription="@string/line"
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -164,24 +177,26 @@
         app:srcCompat="@drawable/q2" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView13"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="-130dp"
-        android:text="Мой уровень языка"
+        android:text="@string/уровень"
         android:textColor="@color/goluboi"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
         android:layout_marginTop="15dp"/>
 
     <TextView
+        android:contentDescription="@string/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A2"
+        android:text="@string/a2"
         android:textColor="@color/goluboi"
-        android:textSize="40dp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView13"
@@ -189,6 +204,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/line"
         android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -199,19 +215,21 @@
         app:srcCompat="@drawable/q2" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Моя библиотека"
+        android:text="библиотека"
         android:textColor="@color/goluboi"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/textView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView21"
         app:layout_goneMarginTop="15dp"/>
 
 
     <ImageView
+        android:contentDescription="@string/book"
         android:id="@+id/imageView30"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -222,6 +240,7 @@
         app:srcCompat="@drawable/q11" />
 
     <ImageView
+        android:contentDescription="@string/line"
         android:id="@+id/imageView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -232,18 +251,20 @@
         app:srcCompat="@drawable/q2" />
 
     <TextView
+        android:contentDescription="@string/text"
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Мои оценки"
+        android:text="@string/оценки"
         android:textColor="@color/goluboi"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/imageView22" />
 
     <ImageView
+        android:contentDescription="@string/decor"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView15"
@@ -253,6 +274,7 @@
         android:layout_marginStart="105dp"/>
 
     <ImageView
+        android:contentDescription="@string/line"
         android:id="@+id/imageView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -264,6 +286,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/decor"
         android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="66dp"
@@ -273,6 +296,7 @@
         app:srcCompat="@drawable/palka_gol" />
 
     <ImageView
+        android:contentDescription="@string/words"
         android:id="@+id/imageView27"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -283,6 +307,7 @@
         app:srcCompat="@drawable/qw1" />
 
     <ImageView
+        android:contentDescription="@string/reading"
         android:id="@+id/imageView28"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -293,6 +318,7 @@
         app:srcCompat="@drawable/qw2" />
 
     <ImageView
+        android:contentDescription="@string/grammar"
         android:id="@+id/imageView29"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -303,6 +329,7 @@
         app:srcCompat="@drawable/qw3" />
 
     <ImageView
+        android:contentDescription="@string/listening"
         android:id="@+id/imageView31"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -313,6 +340,7 @@
         app:srcCompat="@drawable/qw4" />
 
     <ImageView
+        android:contentDescription="@string/profile"
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -320,4 +348,5 @@
         app:layout_constraintTop_toTopOf="@+id/imageView26"
         app:srcCompat="@drawable/qw5"
         android:layout_marginStart="20dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

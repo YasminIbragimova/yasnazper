@@ -7,6 +7,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/french"
         android:id="@+id/imageView5"
         android:layout_width="145dp"
         android:layout_height="wrap_content"
@@ -18,6 +19,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/middle"
         android:id="@+id/imageView6"
         android:layout_width="65dp"
         android:layout_height="85dp"
@@ -29,6 +31,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/it"
         android:layout_width="145dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
@@ -38,6 +41,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/decor"
         android:id="@+id/imageView8"
         android:layout_width="170dp"
         android:layout_height="50dp"
@@ -62,47 +66,55 @@
 
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/r1" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
                 app:srcCompat="@drawable/r2" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
                 app:srcCompat="@drawable/r3" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
                 app:srcCompat="@drawable/r4" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
                 app:srcCompat="@drawable/r5" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
                 app:srcCompat="@drawable/r6" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
                 app:srcCompat="@drawable/r7" />
 
             <ImageView
+                android:contentDescription="@string/decor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-110dp"
@@ -112,6 +124,7 @@
     </ScrollView>
 
     <ImageView
+        android:contentDescription="@string/decor"
         android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="66dp"
@@ -121,6 +134,7 @@
         app:srcCompat="@drawable/palka_gol" />
 
     <ImageView
+        android:contentDescription="@string/words"
         android:id="@+id/imageView27"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -131,6 +145,7 @@
         app:srcCompat="@drawable/qw1" />
 
     <ImageView
+        android:contentDescription="@string/book"
         android:id="@+id/imageView28"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -141,6 +156,7 @@
         app:srcCompat="@drawable/qw2" />
 
     <ImageView
+        android:contentDescription="@string/grammar"
         android:id="@+id/imageView29"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -151,6 +167,7 @@
         app:srcCompat="@drawable/qw3" />
 
     <ImageView
+        android:contentDescription="@string/listening"
         android:id="@+id/imageView31"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -161,6 +178,7 @@
         app:srcCompat="@drawable/qw4" />
 
     <ImageView
+        android:contentDescription="@string/profile"
         android:id="@+id/ava"
         android:layout_width="60dp"
         android:layout_height="60dp"

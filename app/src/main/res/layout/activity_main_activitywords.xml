@@ -4,21 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivitywords">
 
     <ImageView
+        android:contentDescription="@string/french"
         android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/image2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/image2"
         app:srcCompat="@drawable/component_1__2_" />
 
 
     <ImageView
+        android:contentDescription="@string/middle"
         android:id="@+id/image2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,13 +33,14 @@
         app:srcCompat="@drawable/component_18" />
 
     <ImageView
+        android:contentDescription="@string/it"
         android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
-        app:layout_constraintStart_toEndOf="@+id/image2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/component_2__4_" />
 
@@ -64,6 +67,7 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -72,6 +76,7 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/image_7__3_" />
@@ -88,7 +93,7 @@
 
 
                 <ImageView
-
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="7dp"
@@ -97,6 +102,7 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:id="@+id/image3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -113,12 +119,14 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/component_8__3_" />
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/image_10__3_" />
@@ -127,13 +135,16 @@
 
         </LinearLayout>
 
-    </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints,UselessLeaf" />
+
     <ImageView
+        android:contentDescription="@string/decor"
         android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="66dp"
@@ -143,6 +154,7 @@
         app:srcCompat="@drawable/palka_gol" />
 
     <ImageView
+        android:contentDescription="@string/words"
         android:id="@+id/imageView27"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -153,6 +165,7 @@
         app:srcCompat="@drawable/qw1" />
 
     <ImageView
+        android:contentDescription="@string/book"
         android:id="@+id/imageView28"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -163,6 +176,7 @@
         app:srcCompat="@drawable/qw2" />
 
     <ImageView
+        android:contentDescription="@string/grammar"
         android:id="@+id/imageView29"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -173,6 +187,7 @@
         app:srcCompat="@drawable/qw3" />
 
     <ImageView
+        android:contentDescription="@string/listening"
         android:id="@+id/imageView31"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -183,15 +198,17 @@
         app:srcCompat="@drawable/qw4" />
 
     <ImageView
+        android:contentDescription="@string/profile"
         android:id="@+id/ava"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView31"
         app:layout_constraintTop_toTopOf="@+id/imageView26"
-        app:srcCompat="@drawable/qw5"
-        android:layout_marginStart="20dp"/>
-</ScrollView></androidx.constraintlayout.widget.ConstraintLayout>
+        app:srcCompat="@drawable/qw5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
 

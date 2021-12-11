@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">yasnazper</string>
+    <string name="it">Italiano</string>
+    <string name="middle">Middle</string>
+    <string name="avatarka">avatarka</string>
+    <string name="logo">logo</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="next">next</string>
+    <string name="french">french</string>
+    <string name="line">line</string>
+    <string name="book">book</string>
+    <string name="decor">decor</string>
+    <string name="grammar">grammar</string>
+    <string name="reading">reading</string>
+    <string name="words">words</string>
+    <string name="listening">listening</string>
+    <string name="profile">profile</string>
+    <string name="dialogs">dialogs</string>
+    <string name="musem">musem</string>
+    <string name="audiobooks">audiobooks</string>
+    <string name="poisk">poisk</string>
+    <string name="readbook">readbook</string>
+    <string name="text">text</string>
+    <string name="Kate_007">Kate_007</string>
+    <string name="Катя">Катя</string>
+    <string name="репетиторы">репетиторы</string>
+    <string name="рикардо">Рикардо</string>
+    <string name="анджела">Анджела</string>
+    <string name="добавить">Добавить</string>
+    <string name="уровень">уровень</string>
+    <string name="a2">A2</string>
+    <string name="библиотека">библиотека</string>
+    <string name="оценки">оценки</string>
+    <string name="learn_language_with_us">learn_language_with_us</string>
+    <string name="forgot_your_password">Forgot_your_password?</string>
+    <string name="английский_родной">Английский_Родной</string>
+    <string name="контакты">Контакты</string>
+    <string name="репетитор">Репетитор</string>
+    <string name="анджела_вегас">Анджела_Вегас</string>
+    <string name="русский_приобретенный">Русский_Приобретенный</string>
+
+
 </resources>

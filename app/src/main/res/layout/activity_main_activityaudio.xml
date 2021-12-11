@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivityaudio">
 
 
     <ImageView
+        android:contentDescription="@string/french"
         android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +21,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/middle"
         android:id="@+id/image2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,6 +34,7 @@
         app:srcCompat="@drawable/component_18" />
 
     <ImageView
+        android:contentDescription="@string/it"
         android:id="@+id/imageView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,6 +71,7 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/dialogs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -76,6 +80,7 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/image_11__1_" />
@@ -92,7 +97,7 @@
 
 
                 <ImageView
-
+                    android:contentDescription="@string/musem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="7dp"
@@ -101,6 +106,7 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -127,12 +133,14 @@
 
 
                 <ImageView
+                    android:contentDescription="@string/audiobooks"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/component_14__1_">
+                    app:srcCompat="@drawable/component_14__1_" />
 
 
                 <ImageView
+                    android:contentDescription="@string/decor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/image_13__1_" />
@@ -144,6 +152,7 @@
 
 
     <ImageView
+        android:contentDescription="@string/decor"
         android:layout_width="wrap_content"
         android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,6 +162,7 @@
         app:srcCompat="@drawable/e11" />
 
     <ImageView
+        android:contentDescription="@string/decor"
         android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="66dp"
@@ -162,6 +172,7 @@
         app:srcCompat="@drawable/palka_gol" />
 
     <ImageView
+        android:contentDescription="@string/words"
         android:id="@+id/imageView27"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -172,6 +183,7 @@
         app:srcCompat="@drawable/qw1" />
 
     <ImageView
+        android:contentDescription="@string/reading"
         android:id="@+id/imageView28"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -182,6 +194,7 @@
         app:srcCompat="@drawable/qw2" />
 
     <ImageView
+        android:contentDescription="@string/grammar"
         android:id="@+id/imageView29"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -192,6 +205,7 @@
         app:srcCompat="@drawable/qw3" />
 
     <ImageView
+        android:contentDescription="@string/listening"
         android:id="@+id/imageView31"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -202,6 +216,7 @@
         app:srcCompat="@drawable/qw4" />
 
     <ImageView
+        android:contentDescription="@string/profile"
         android:id="@+id/ava"
         android:layout_width="60dp"
         android:layout_height="60dp"
