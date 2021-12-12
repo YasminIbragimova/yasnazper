@@ -340,6 +340,7 @@
         app:srcCompat="@drawable/qw4" />
 
     <ImageView
+        android:id="@+id/imageView34"
         android:contentDescription="@string/profile"
         android:layout_width="60dp"
         android:layout_height="60dp"
