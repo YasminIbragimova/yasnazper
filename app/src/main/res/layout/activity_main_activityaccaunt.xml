@@ -76,7 +76,7 @@
 
 
     <ImageView
-        app:layoutDescription="@string/decor"
+        android:contentDescription="@string/decor"
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -220,7 +220,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="библиотека"
+        android:text="@string/библиотека"
         android:textColor="@color/goluboi"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/textView13"
